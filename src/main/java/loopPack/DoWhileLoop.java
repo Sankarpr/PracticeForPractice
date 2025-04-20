@@ -1,0 +1,16 @@
+package loopPack;
+
+import java.util.Scanner;
+
+public class DoWhileLoop {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n= 10;
+        do
+        {
+            System.out.println(n);
+            n--;
+        }while(n>=1);
+
+    }
+}
